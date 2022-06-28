@@ -1,0 +1,6 @@
+{
+    "bot_prefix": ">",
+    "cogs":[
+        "cogs.commands"
+    ]
+}

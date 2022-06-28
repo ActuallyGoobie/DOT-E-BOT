@@ -1,0 +1,88 @@
+{
+    "_": [
+        {
+            "id": "w8r4q4",
+            "owner": "tycoon",
+            "number": "1",
+            "endpoint": "status/widget/players.json",
+            "name": "Server 1"
+        },
+        {
+            "id": "2epovd",
+            "owner": "tycoon",
+            "number": "3",
+            "endpoint": "status/widget/players.json",
+            "name": "Server 3"
+        },
+        {
+            "id": "wdrypd",
+            "owner": "tycoon",
+            "number": "4",
+            "endpoint": "status/widget/players.json",
+            "name": "Server 4"
+        },
+        {
+            "id": "2r4588",
+            "owner": "tycoon",
+            "number": "6",
+            "endpoint": "status/widget/players.json",
+            "name": "Server 6"
+        },
+        {
+            "id": "npl5oy",
+            "owner": "tycoon",
+            "number": "7",
+            "endpoint": "status/widget/players.json",
+            "name": "Server 7"
+        },
+        {
+            "id": "2vzlde",
+            "owner": "tycoon",
+            "number": "8",
+            "endpoint": "status/widget/players.json",
+            "name": "Server 8"
+        },
+        {
+            "id": "wmapod",
+            "owner": "tycoon",
+            "number": "9",
+            "endpoint": "status/widget/players.json",
+            "name": "Server 9"
+        },
+        {
+            "id": "wxjpge",
+            "owner": "tycoon",
+            "number": "A",
+            "endpoint": "status/widget/players.json",
+            "name": "Server A"
+        }
+    ],
+    "servers": [
+        {
+            "id": "2epova",
+            "owner": "tycoon",
+            "number": "2",
+            "endpoint": "status/widget/players.json",
+            "backup": "http://server.tycoon.community:30120/",
+            "name": "Main Server"
+        },
+        {
+            "id": "njyvop",
+            "owner": "tycoon",
+            "number": "5",
+            "endpoint": "status/widget/players.json",
+            "backup": "http://server.tycoon.community:30121/",
+            "name": "Beta Server"
+        },
+        {
+            "id": "dgpvx3",
+            "owner": "tycoon",
+            "number": "L",
+            "endpoint": "sessionmanager/players.json",
+            "backup": "http://server.tycoon.community:30123/",
+            "name": "[LITE] Transportation"
+        }
+    ],
+    "notice": "Proxy may not always be available, even if the server is",
+    "template": "https://${owner}-${id}.users.cfx.re/${endpoint}"
+}
